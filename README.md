@@ -1,2 +1,2 @@
-# ecnu_lib_seat_resvervation
+# ecnu_lib_seat_reservation
  
