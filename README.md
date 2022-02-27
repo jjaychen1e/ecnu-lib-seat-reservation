@@ -1,2 +1,4 @@
-# ecnu_lib_seat_reservation
+## 说明
+
+请勿滥用。默认的 `area` 和 `segment` 为中北校区 `1B` 区域。
  
