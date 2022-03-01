@@ -24,6 +24,7 @@ if __name__ == '__main__':
             f'http://202.120.82.17/api.php/spaces_old?area={area}&day={today}&endTime=23:50&segment={segment}&startTime={current_time}')
         data = response.json()
         seat_list: List = data['data']['list']
+        seat_list.reverse()
         for seat in seat_list:
             if seat['status'] == 1 and int(seat['no']) >= 79:
                 id = seat['id']
